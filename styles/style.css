@@ -11,6 +11,7 @@ body {
     font-size: 35px;
     font-weight: 600;
     color: #272727;
+    margin-bottom: 20px;
 }
 
 .description {
@@ -18,10 +19,13 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 0 auto;
-    width: 60%;
+    margin: 20px auto;
+    width: 65%;
     text-align: center;
 
+}
+.special-text{
+    color: #E55473;
 }
 
 /* This Banner Section */
@@ -31,7 +35,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 0px 150px 0px;
+    padding: 0px 120px 0px;
 }
 
 .photo {
@@ -43,6 +47,7 @@ body {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.4em;
+
 }
 
 .banner-description {
@@ -50,15 +55,16 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 10px 0;
+    margin: 20px 0px;
 }
 
 .btn {
-    padding: 20px 40px;
+    padding: 15px 36px;
     background-color: #E55473;
     border-radius: 8px;
     border: 0;
     color: #ffff;
+    font-size: 16px;
 }
 
 /* This is Featured Section */
@@ -86,10 +92,17 @@ body {
 }
 
 .flower {
-    width: auto;
+    width: 250px;
     height: 350px;
 
 
+}
+
+.color-change1 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.color-change2 {
+    background-color: rgba(71, 125, 17, 0.15);
 }
 
 .flower-caption {
@@ -106,7 +119,7 @@ body {
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
     width: 70%;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 50px 80px;
     text-align: center;
 
@@ -119,38 +132,67 @@ body {
     align-items: center;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 80px 150px;
-    margin: 50px 0;
+    padding: 80px 150px 80px 0px;
+    margin: 80px 0px;
 
 }
 
 .deal-content {
     text-align: center;
 }
+
 /* This is Intagram Section */
-.insta-section{
+.insta-section {
     text-align: center;
-    padding: 80px 0;
+    padding: 30px 0;
     width: 90%;
     margin: 0 auto;
 }
-.insta-img{
+
+.insta-img {
     width: 250px;
     height: auto;
     margin-right: 10px;
 }
-.insta-photo-box{
+
+.insta-photo-box {
     margin: 80px 0;
 }
+
+/* This is product section */
+.flower-product {
+    padding: 100px 0px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.flower-product-content {
+    text-align: center;
+}
+
+.product-pic {
+    height: 200px;
+}
+
+.product-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+}
+
 /*  Call To Action Section */
-.cta-container{
-    background-image: url("../images/Rectangle\ 9.png"),linear-gradient(gray, rgb(147, 133, 133));
+.cta-container {
+    background-image: url("../images/Rectangle\ 9.png"), linear-gradient(gray, rgb(147, 133, 133));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
     text-align: center;
+    width: 70%;
+    margin: 80px auto;
+    border-radius: 8px;
 }
+
 input[type=email] {
     width: 50%;
     padding: 15px 35px;
@@ -158,32 +200,33 @@ input[type=email] {
     box-sizing: border-box;
     border-radius: 5px;
     border: 0;
-    
-  }
-  input[type=submit] {
+
+}
+
+input[type=submit] {
     padding: 15px 35px;
     background-color: #E55473;
     border-radius: 5px;
     border: 0;
     color: #ffff;
-    
-  }
-  
-  
-/* This is product section */
-  .flower-product{
-    padding: 100px 0px;
-    background-color: #fcf1f4;
-  }
-  .flower-product-content{
+
+}
+
+
+
+/* Footer Section */
+.footer-container {
+    padding: 80px 0px;
+    background-color: #111010;
     text-align: center;
-  }
-  .product-pic{
-    height: 200px;
-  }
-  .product-child{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px 0px;
-  }
+    color: #fff;
+}
+.footer-text{
+    font-size: 40px;
+    
+}
+.copyright{
+    font-size: 13px;
+    color: rgb(211, 208, 208);
+    margin-top: 20px;
+}
