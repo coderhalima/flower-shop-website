@@ -168,3 +168,22 @@ input[type=email] {
     color: #ffff;
     
   }
+  
+  
+/* This is product section */
+  .flower-product{
+    padding: 100px 0px;
+    background-color: #fcf1f4;
+  }
+  .flower-product-content{
+    text-align: center;
+  }
+  .product-pic{
+    height: 200px;
+  }
+  .product-child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+  }
