@@ -142,3 +142,29 @@ body {
 .insta-photo-box{
     margin: 80px 0;
 }
+/*  Call To Action Section */
+.cta-container{
+    background-image: url("../images/Rectangle\ 9.png"),linear-gradient(gray, rgb(147, 133, 133));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    text-align: center;
+}
+input[type=email] {
+    width: 50%;
+    padding: 15px 35px;
+    margin: 8px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    
+  }
+  input[type=submit] {
+    padding: 15px 35px;
+    background-color: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: #ffff;
+    
+  }
