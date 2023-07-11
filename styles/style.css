@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Laila', sans-serif;
+}
+
+/* This Banner Section */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 0px 150px 0px;
+}
+
+.photo {
+    width: 400px;
+}
+
+.banner-heading {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.banner-description{
+    color: #424141;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 10px 0;
+}
+
+.btn{
+    padding: 20px 40px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: 0;
+    color: #ffff;
+}
+
