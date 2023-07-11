@@ -6,21 +6,24 @@
 body {
     font-family: 'Laila', sans-serif;
 }
-.title{
+
+.title {
     font-size: 35px;
     font-weight: 600;
     color: #272727;
 }
-.description{
-        color: #424141;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
-        margin: 0 auto;
-        width: 50%;
-        text-align: center;
- 
+
+.description {
+    color: #424141;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+
 }
+
 /* This Banner Section */
 .banner-container {
     display: flex;
@@ -41,15 +44,16 @@ body {
     font-weight: 700;
     line-height: 1.4em;
 }
-.banner-description{
+
+.banner-description {
     color: #424141;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0;
 }
 
-.btn{
+.btn {
     padding: 20px 40px;
     background-color: #E55473;
     border-radius: 8px;
@@ -58,33 +62,52 @@ margin: 10px 0;
 }
 
 /* This is Featured Section */
-.featured{
+.featured {
     padding: 80px;
     text-align: center;
 }
-.featured-container{
+
+.featured-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-.flower-wrap{
-  border-radius: 300px 300px 0px 0px;
+
+.flower-wrap {
+    border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     padding: 50px 30px 0;
 
 }
-.featured-flower{
+
+.featured-flower {
     margin-right: 20px;
 }
-.flower{
-    width: auto; 
+
+.flower {
+    width: auto;
     height: 350px;
-   
- 
+
+
 }
-.flower-caption{
+
+.flower-caption {
     text-align: center;
     text-decoration: underline;
     margin-top: 20px;
+}
+
+/* This is Shop Advantages */
+.shop-advantage-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 80px;
+    text-align: center;
+
 }
